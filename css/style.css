@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 4500px;
+   
+
+}
+.parent{
+    width: 100%;
+    height: 55px;
+    /* position: relative; */
+background-color: rgb(120, 124, 124);
+overflow: auto;
+position: fixed;
+top: 0px;
+left: 0px; 
+opacity: 90%;
+/* display: block; */
+z-index: 2;
+}
+
+.img1{
+width: 70px;
+height: 55px;
+margin-left: 30px;
+float: left;
+}
+
+ul{
+    list-style-type: none;
+    float:right ;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.li1{
+    display: inline-block;
+margin-left: 20px;
+}
+.li1 a{
+    color: beige;
+text-decoration: none;
+}
+/* .parent2{
+    position: relative; */
+
+.home{
+    background-image: url(../images/najnowsze-prognozy-dla-zlota-czy-cena-kruszcu-wystrzeli-w-gore.jpg);
+    height: 100vh;
+    background-size: cover;
+      position: relative;  
+     /* padding-top: 55px; */
+     z-index: 1;
+}
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+background-color: rgba(8, 8, 8, 0.5);
+    /* opacity: .5; */
+}
+.home-content{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    /* background-color: aquamarine; */
+    text-align: center;
+
+}
+.home-content .home-title{
+
+    color:rgb(255, 255, 255);
+    /* text-align: center; */
+   
+    font-size: 65px;
+}
+.home-content .p-title{
+    color: rgb(119, 119, 119);
+letter-spacing: 1px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 20px;
+}
+.home-btn{
+    width: 150px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    border:0;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.learn{
+    background-color: rgb(73, 73, 214);
+    color: antiquewhite;
+    margin-left:10px ;
+}
+.home-btn:hover{
+    opacity: .8;
+}
+.wibsite-title{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.div2{
+    background-color: rgb(61, 73, 185);
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container{
+    width: 80%;
+    /* height: 100vh; */
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    /* color: aquamarine; */
+     overflow: auto;
+    padding: 5% 5%;
+    text-align: center; 
+margin: auto;
+}
+/* .div5{
+    padding:  5%;
+    text-align:center;
+    overflow: auto;
+
+} */
+.website{
+    width: 28%;
+    height: 350px;
+   border:2px solid black;
+    background-color: rgb(224, 230, 241);
+/* float: left; */
+/* margin-left: 150px;
+margin-top: 30px; */
+text-align: center;
+border-radius: 10px;
+float: left;
+/* padding: 20px 20px; */
+position: relative;
+
+}
+.bb{
+    margin: 0px 7%;
+    /* margin: auto; */
+    
+}
+.website-title2{
+    font-size: 40px;
+    padding: 20px;
+    /* color: beige; */
+}
+.icon1{
+    font-size: 50px;
+    margin-top: 20px;
+    color: black;
+}
+.website-a{
+    padding: 40px;
+    margin-top: 20px;
+    color: rgb(28, 57, 82);
+    
+}
+.website-p{
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(43, 42, 42);
+}
+.website:after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+
+    /* transition: 5s; */
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.website:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    transition: 1s;
+
+}
+.featured-title{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+.div3{
+    background-color: rgb(61, 73, 185);
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container2{
+     width: 90%;
+    height: auto; 
+    margin: auto;
+    background-color: rgb(112, 55, 55);
+      overflow: auto;
+    text-align: center; 
+padding: 2% 2%;
+}
+
+.works-img{
+
+ float: left;
+ width: 20%;
+ height: 200px;
+float: left;
+margin-top: 30px; 
+ text-align: center;
+ padding: 2% 2%;
+ margin: 3% 3%; 
+background-color: rgba(130, 40, 182, 0.5);
+/* position: relative; */
+
+} 
+.overlay2{
+    position: relative;
+}
+
+.works-img:after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+
+    /* transition: 5s; */
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.works-img:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    transition: 1s;
+}
+.offer-title{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+.div4{
+    background-color: rgb(61, 73, 185);
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container3{
+    width: 80%;
+    height: 600px;
+    /* background-color: rgb(108, 114, 138); */
+    margin: auto;
+    overflow:auto ;
+}
+.offer{
+    width: 26%;
+    height: 200px;
+    background-color:rgb(183, 183, 252);
+    float: left;
+    border: 55px rgb(63, 9, 9);
+    border-radius: 2%;
+    padding: 2% 2%;
+    margin: 12px;
+    margin-top: 35px;
+    position: relative;
+
+}
+.icon-offer{
+font-size: 40px;
+margin-left:45%;
+}
+.offer-title2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.p-offer{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(43, 42, 42);
+}
+.offer:after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+
+    /* transition: 5s; */
+    width: 0;
+    height: 0;
+    opacity: 0;   
+}
+.offer:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    transition: 1s;
+    border-radius: 2%;
+
+}
+.why{
+    font-size: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    margin-left: 40px;
+}
+.div7{
+    background-color: rgb(61, 73, 185);
+    width: 100px;
+    height: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.p-why{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.icon5{
+    font-size: 30px;
+    margin-left:50px;
+}
+
+
+.img5{
+width:300px;
+height: 250px;
+margin-left: 900px;
+margin-top: -200px;
+}
+.ul-why{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+background-color: rgb(0, 0, 0);
+display: inline;
+}
+
+.cc{
+    margin-right: 230px;
+}
+.awards{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/11cefe5ddf14dce4fe9d0a8923e7ee16.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+.awards-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+background-color: rgba(8, 8, 8, 0.5);
+}
+.awards2{
+    float: left;
+    padding: 110px;
+    margin-top: 20px;
+}
+.icon-awards{
+    font-size: 40px;
+    color: rgb(95, 95, 190);
+margin-left: 20px;
+}
+.awards-title{
+    font-size: 35px;
+color: aliceblue;
+text-align: center;
+margin-top: 5px;}
+.p-awadrs{
+    font-size: 15px;
+    color: beige;
+}
+.price-title{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+.div9{
+    background-color: rgb(61, 73, 185);
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container4{
+    width: 100%;
+    /* height: 100vh; */
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    /* color: aquamarine; */
+     /* overflow: auto; */
+    /* padding: 5% 5%; */
+    text-align: center; 
+margin: auto;}
+.price-div{
+    height: 400px;
+    width: 300px;
+    border: 4px solid rgb(7, 6, 46);
+ float: left;
+ margin: 70px;
+ /* margin-left: 140px; */
+ position: relative;
+background-color: rgb(214, 238, 226) ;
+ border-radius: 40px;}
+.price-table{
+    overflow: auto;   
+}
+.circle-div{
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(7, 6, 46);
+    border-radius: 50%;
+    margin:auto;
+    margin-top: 30px;
+    }
+    .basic-title{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+        
+        }
+        .price-title2{
+            text-align: center;
+         margin-top: 11px;
+            font-size: 40px;
+        }
+        .price-p1{
+            text-align: center;
+            font-size: 20px;
+        }
+       .price-p2{
+        margin-top: 10px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 900;
+            color: rgb(58, 58, 58);
+        }
+        .btn-price{
+margin-top: 20px;
+            width: 110px;
+            height: 40px;
+            border: 2px solid  rgb(7, 6, 46) ;
+            background-color: rgba(189, 175, 175, 0.5);
+            border-radius: 10PX;
+        } 
+        .price-div:after{
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-color: rgb(139, 133, 133);
+        
+            /* transition: 5s; */
+            width: 0;
+            height: 0;
+            opacity: 0;
+        }
+        .price-div:hover::after{
+            width: 100%;
+            height: 100%;
+            opacity: .4;
+            transition: 1s;
+        border-radius:35px ;
+        }
+        .team{
+            margin-top: 50px;
+            width: 100%;
+            height: 400px;
+            background-image: url("https://img.freepik.com/premium-photo/financial-business-chart-with-diagrams-stock-numbers-showing-profits-losses_273081-4.jpg?w=2000"
+            );
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: auto;
+            position: relative;
+            margin-bottom: 100px;
+        }
+        .team-overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        background-color: rgba(8, 8, 8, 0.5);
+        /* float: left; */
+        }
+        /* .team-photo{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-image: url(../najnowsze-prognozy-dla-zlota-czy-cena-kruszcu-wystrzeli-w-gore.jpg);
+            background-size: cover;
+            float: left;
+            margin-left:270px;
+        }
+        .team2{
+            margin:40px;
+        } */
+         .team-img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            /* float: left; */
+            /* margin-left:270px;
+            margin-top: 20px; */
+            /* float: left; */
+
+
+         }
+        /* .sss{
+            margin-top: 50px;
+        }  */
+/* .team- title{
+    margin-top: 150px;
+} */
+/* .team-title{
+    margin-top: 200px;
+
+/* } */
+.team2{
+    width: 200px;
+    height: 200px;
+float: left;
+margin: 80px;
+margin-left: 300px;
+}
+.team-title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(104, 104, 167);
+}
+.team-p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(172, 172, 240); 
+
+}
+.last{
+    margin-top: 90px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(148, 143, 143);
+    position: relative;
+}
+.last-img{
+    width: 370px;
+    height: 210px;
+
+}
+.last-div{
+    width: 400px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+}
+.icon6{
+    font-size: 31px;
+    width: 30px;
+    height: 30px;
+margin-left: 30px;
+margin-top: 5px;
+padding: 5px;
+border-radius: 50%;
+color: antiquewhite;
+background-color: rgb(83, 61, 207);
+}
+.last-p{
+text-align: center;
+}
